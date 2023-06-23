@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>overlaping</title>
+<style>
+    .overlap{
+        height: 150px;
+        width: 150px;
+        border: 2px solid black ;
+        text-align: center;
+        align-items: center;
+     }
+     #box1{
+        top: 34px;
+        background-color: rgb(174, 174, 193);
+        z-index: 120;
+        position: relative;
+     }
+     #box2{
+        top: 69px;
+        background-color: red;
+        z-index: -135;
+       /* visibility :hidden;*/
+       position: relative;
+     }
+     #box3{
+        background-color: yellow;
+       /* display: none;*/
+     }
+     #box4{
+        background-color: green;
+     }
+</style>
+    </head>
+    <body>
+        <div class="overlap" id="box1">1 </div> 
+        <div class="overlap" id="box2"> 2</div>
+        <div class="overlap" id="box3"> 3</div>
+        <div class="overlap" id="box4"> 4</div>
+    </body>
+</html>
