@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<bookstore> 
+    <book>
+        <name>saurashtra ni rasdhar</name>
+        <author>Javerchand meghani</author>
+        <price>RS-500</price>
+        <publish>Navneet</publish>
+    </book>
+</bookstore>

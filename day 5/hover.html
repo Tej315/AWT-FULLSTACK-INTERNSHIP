@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style type="text/css">
+        body ul li ul li {
+            display: none;
+        }
+
+        body ul li:hover ul li {
+            display: block;
+        }
+
+        body ul li:hover ul li ul li {
+            display: none;
+        }
+
+        body ul li ul li:hover ul li {
+            display: block;
+        }
+
+        body ul li ul li:hover ul li ul li {
+            display: none;
+        }
+
+        body ul li ul li ul li:hover ul li {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul id="myhover">
+            <h1>This is hovering paragraph</h1>
+            <li>Google
+                <ul>
+                    <li>gmail</li>
+                    <ul>
+                        <li>sign in
+
+                        </li>
+                        <li>sign up
+
+                        </li>
+                        <ul>
+                            <li>sign in as admin</li>
+                            <li>sign in as student</li>
+                        </ul>
+                    </ul>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</body>
+
+</html>

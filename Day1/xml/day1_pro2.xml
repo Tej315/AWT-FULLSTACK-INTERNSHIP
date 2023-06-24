@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<email>
+    <to>abc@gmail.com</to>
+    <from>bcd@gmail.com</from>
+    <subject>Details</subject>
+    <message>I am good </message>
+</email>
