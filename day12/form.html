@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .aa {
+            background: url("https://source.unsplash.com/collection/190727/1600x900");
+        }
+        
+        button {
+            background-color: azure;
+            border: 2px solid black;
+            padding: 8px;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body id="t">
+    <h2>google form</h2>
+    <label for="name">first name :</label>
+    <input type="text" id="name" placeholder="Enter your first name" required><br><br>
+    <label for="name2">last name:</label>
+    <input type="text" id="name2" placeholder="Enter your last name" required><br><br>
+    <label for="email">email:</label>
+    <input type="email" id="email" placeholder="Enter your email"><br><br>
+    <label for="password">password:</label>
+    <input type="password" id="password" placeholder="Enter your first name"><br><br>
+    <button>  <a href="https://www.google.com">submit</a></button>
+
+
+
+</body>
+<script>
+    setInterval(() => {
+        document.getElementById("t").className = "aa";
+    }, 5000);
+</script>
+
+</html>
