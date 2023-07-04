@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        /* #span {
+            color: brown;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <p id="para">Lorem ipsum dolor,<span id="span"> sit amet consectetur adipisicing</span> elit. Ipsam, ab!</p>
+    <button id="btn">
+        appand text
+    </button>
+
+</body>
+<script>
+    $("#btn").click(function() {
+        $("#para").append($("#para").html());
+        $("#span").css("color", "red");
+
+    });
+</script>
+
+</html>
